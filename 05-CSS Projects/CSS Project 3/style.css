@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: rgb(255, 255, 255); */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+#main{
+  width: 100%;
+  height: 100%;
+  /* background-color: red;   */
+}
+
+#nav{
+  height: 80px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+#nav-part-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 2px; */
+}
+
+.gola{
+  height: 22px;
+  width: 22px;
+  background-color: black;
+  border-radius: 50%;
+}
+.line{
+  height: 4px;
+  width: 3px;
+  background-color: black;
+}
+
+#nav-part-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+#nav-part-2 h4{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#nav-part-2 span{
+  color: rgb(157, 156, 156);
+  margin-left: 20px;
+}
+
+#nav2{
+  height: 80px;
+  width: 50%;
+  /* background-color: red; */
+  display: flex;
+  align-items: right;
+  /* justify-content: space-between; */ 
+  /* or you can apply */
+  gap: 100px;
+  padding: 0 50px;
+}
+
+#nav2 h3{
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#content{
+  height: calc(100% - 160px);
+  width: 100%;
+  /* background-color: aquamarine; */
+}
+
+#text-content{
+  height: 40%;
+  width: 100%;
+  /* background-color: burlywood; */
+  display: flex;
+  /* flex-wrap: nowrap;  not necessary you want you can give or not*/
+  overflow-x: auto;
+}
+
+#text-content::-webkit-scrollbar{
+  /* for removing navigation */
+  background-color: transparent;
+  height: 7px;
+}
+
+#text-content::-webkit-scrollbar-thumb{
+  /* for removing navigation */
+  background-color: orangered;
+}
+
+
+.elem{
+  flex-shrink: 0;
+  height: 100%;
+  width: 60%;
+  /* background-color: red; */
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elem h1{
+  font-size: 120px;
+  font-weight: 500;
+}
+
+#image-content{
+  height: 60%;
+  width: 100%;
+  /* background-color: palevioletred; */
+  display: flex;
+  overflow-x: auto;
+}
+
+#image-content::-webkit-scrollbar{
+  display: none;
+}
+
+
+#image-content img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  
+}
