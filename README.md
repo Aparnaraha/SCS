@@ -10,4 +10,6 @@ sheriyans coding classes notes
 8. JS - Basics
 9. JS - Animations / Dom
 10. JS - Tasks
-11. 
+11. JS - Advance
+12. JS - Interview Questions
+13. 
