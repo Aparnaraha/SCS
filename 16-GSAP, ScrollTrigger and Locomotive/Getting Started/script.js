@@ -18,6 +18,8 @@
 //     repeat : -3
 // })
 
+// timeline 
+
 let tl = gsap.timeline()
 
 tl.to('#box1',{
