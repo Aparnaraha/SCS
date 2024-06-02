@@ -1,22 +1,22 @@
-// gsap.to('.box',{
-//     x:1000,
-//     duration : 2,
-//     delay : 2,
-//     backgroundColor : 'blue',
-//     rotate : 360,
-//     scale : 0.5
-// })
+gsap.to('.box',{
+    x:1000,
+    duration : 2,
+    delay : 2,
+    backgroundColor : 'blue',
+    rotate : 360,
+    scale : 0.5
+})
 
 
-// gsap.from('.box',{
-//     x:1000,
-//     duration : 2,
-//     delay : 2,
-//     backgroundColor : 'blue',
-//     rotate : 360,
-//     scale : 0.5,
-//     repeat : -3
-// })
+gsap.from('.box',{
+    x:1000,
+    duration : 2,
+    delay : 2,
+    backgroundColor : 'blue',
+    rotate : 360,
+    scale : 0.5,
+    repeat : -3
+})
 
 // timeline 
 
