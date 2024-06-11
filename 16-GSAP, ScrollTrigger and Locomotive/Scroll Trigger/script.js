@@ -1,5 +1,3 @@
-
-
 gsap.to('#page1 #circle',{
     scale : 2,
     duration : 1,
