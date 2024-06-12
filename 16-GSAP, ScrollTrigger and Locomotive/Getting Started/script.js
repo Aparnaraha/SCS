@@ -7,7 +7,6 @@
 //     scale : 0.5
 // })
 
-
 // gsap.from('.box',{
 //     x:1000,
 //     duration : 2,
