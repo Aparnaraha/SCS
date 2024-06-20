@@ -1,4 +1,5 @@
 // DIFFERENCE BETWEEN VARIABLES AND CONST------
+
 // har progamming language me data se deal krna hota hai, woh alg alg prkar ka data hoskta hai, aisa data jisse humein deal krna hai usse save to krna pdega, to usse save krne k liye humein saving space(RAM) chaiye jaha par data save ho jaae and save krne k liye unhe kuch naam bhi dena pdega and issi liye humein VARIABLES AND CONSTANTS  banane pdte taakki data save hojae aur uska naam bhhi dete hai taaki badme ussko access bhi kar skte hai
 
 // saving-space --- RAM 
