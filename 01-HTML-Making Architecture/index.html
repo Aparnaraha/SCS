@@ -1,17 +1,14 @@
 <!-- Boiler Plate  -->
 <!DOCTYPE html> <!-- Signifies HTML5 aur ye bhi btata hai ki ye html Document hai -->
-<html lang="en"> <!--Wraps head and Body Tags-->
+<html> <!--Wraps head and Body Tags-->
 
-<head> <!--Includes Insrtuctions (Plugins,Settings,etc) -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head> <!--Includes Insrtuctions (Plugins,Settings,title, browser content height, width,etc) -->
     <title>This is Title</title> <!--Describes the Title of the Website-->
-
 </head>
 
 <body>
 
-    <!--Body Includes the Content of the Wesite-->
+    <!--Body me hum Website ke content add krte h-->
 
     <!--Heading Tag-->
     <h1>Heading 1</h1>
@@ -26,97 +23,199 @@
 
     <!-- Pre Tag -->
     <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Ea sed, ad pariatur temporibus dolore ex! Veniam itaque minus, incidunt eius voluptates pariatur atque animi necessitatibus nobis facere assumenda sunt neque?</pre>
+        Ea sed, ad pariatur temporibus dolore ex! Veniam itaque minus, incidunt eius voluptates pariatur atque animi necessitatibus nobis facere assumenda sunt 
+        #####
+        neque?</pre>
 
+
+    <h3>Text formating k sath kuch texts dekhte h </h3>
 
     <!-- Text Formating tags -->
 
-    <!-- Display text in bold using <b> tag -->
+    <!-- <b> ka use karke text ko bold banao -->
     <p>This is a <b>bold</b> text.</p>
 
-    <!-- Italicize text using <i> tag -->
+    <!-- <i> ka use karke text ko italic banao -->
     <p>This is an <i>italic</i> text.</p>
 
-    <!-- underline text using <u> tag -->
+    <!-- <u> ka use karke text ko underline karo -->
     <p>This is an <u>underline</u> text.</p>
 
-    <!-- Create subscript text using <sub> tag -->
+    <!-- <sub> ka use karke subscript text banao -->
     <p>This is a subscript text: H<sub>2</sub>O</p>
 
-    <!-- Format text as superscript using <sup> tag -->
+    <!-- <sup> ka use karke text ko superscript banao -->
     <p>This is a superscript text: E = mc<sup>2</sup></p>
 
-    <!-- strikethrough -->
+    <!-- <strike> ka use karke text ko strikethrough karo -->
     <strike>strikethrough</strike>
 
-    <!-- Render text in a smaller font size using <small> tag -->
+    <!-- <small> ka use karke text ko chota banao -->
     <p><small>This is a small text.</small></p>
 
-    <!-- Highlight added or inserted text using <ins> tag -->
+    <!-- <small> ka use karke text ko bda banao -->
+    <p><big>This is a big text.</big></p>
+
+    <!-- <ins> ka use karke add/insert kiye gaye text ko highlight karo -->
     <p>This is an <ins>inserted</ins> text.</p>
 
-    <!-- Highlight text with a background color using <mark> tag -->
+    <!-- <mark> ka use karke text ko background se highlight karo -->
     <p>This is a <mark>highlighted</mark> text.</p>
 
-    <!-- Strike through text to signify deletion using <del> tag -->
+    <!-- <del> ka use karke delete kiye gaye text ko strikethrough karo -->
     <p>This is a <del>deleted</del> text.</p>
 
-    <!-- Emphasize text using <em> tag -->
+    <!-- <em> ka use karke text ko emphasize karo -->
     <p>This is an <em>emphasized</em> text.</p>
 
-    <!-- Indicate important text using <strong> tag -->
+    <!-- <strong> ka use karke important text ko indicate karo -->
     <p><strong>This is an important text.</strong></p>
 
+    <!-- Font tag  -->
+    <!-- <font> tag ek HTML element tha jiska use text ke font, size aur color ko specify karne ke liye kiya jata tha web page par. Lekin ab yeh tag obsolete mana jata hai aur iska use nahi karna chahiye modern HTML mein. -->
+    <font face="Arial" size="4" color="blue">This text is in Arial font, size 4, and blue color.</font>
 
-    <!-- break(<br>) -Element Dusri Line par aajaega -->
-    <!-- horizontal Row (<hr>) -Inserts the line in between Elements -->
+
+    <!-- <br> ka use karke text ko next line par le jao -->
+    <!-- <hr> ka use karke elements ke bich horzontal line insert karo -->
+
 
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Quaerat necessitatibus quasi similique tempore.
         Aspernatur saepe voluptates facilis, qui vero cum.</p>
     <hr>
 
+    <!-- Image Tag  -->
+
+    <!-- src attribute ka use karke Image ka Source ya Link batao -->
+    <!-- alt attribute ka use karke Image load hone mein problem hone par dikhane ke liye -->
+    <!-- height aur width ka use karke Image ka size set kar sakte ho -->
+
+    <!-- src location computer se image lekr dalna h to ese dalte h -->
+
+    <img src="image/image.jpg" alt="Image of Flower" height="200" width="300">
+
+    <br>
+
+    <!-- src me hum kisi website se image lena chahte h to link copy karke image link src attribute me ese dalte h-->
+
+    <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="This is an Image" height="250px" width="250px">
+
+    <br>
+    <br>
+    <br>
 
     <!-- Anchor tag  -->
     <!-- Creates a Link (Link URL is Added to Href Attribute) -->
+    <!-- <a> tag ka use karte hain jab hum kisi link par click karna chahte hain -->
+
+    <!-- 'target' attribute batata hai ki link kahan open honi chahiye -->
+
+    <!-- target attribute ke kuch common values hain: -->
+
+    <!-- target ="_self" - Agar target attribute ka value _self hota hai, toh link same window/tab mein open hogi jahan se click kiya gaya tha. -->
+
+    <!-- _target ="blank - Agar target attribute ka value _blank hota hai, toh link ek naye window ya tab mein open hogi. -->
+
+    <!-- target ="_parent - Agar target attribute ka value _parent hota hai, toh link parent frame mein open hogi. -->
+
+    <!-- _top - Agar target attribute ka value _top hota hai, toh link puri window mein open hogi. -->
 
     <a href="https://www.youtube.com/" target="_blank">Click To Open Youtube</a>
+    <br>
+    <br>
+    <br>
+    <br>
 
-    <!-- Image Tag  -->
-    <!-- src shows the Source or Link of the Image  -->
-    <!-- alt -- is shown when there is some Problem in loading the Image  -->
 
 
-    <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt="This is an Image">
+    <!-- Video tag -->
+
+    <!-- <video> tag ka use video player ko HTML document mein embed karne ke liye kiya jata hai -->
+
+    <!-- 'width' aur 'height' attributes video player ka size set karte hain -->
+
+    <!-- 'controls' attribute video player controls (play, pause, volume, etc.) add karta hai -->
+
+    <!-- 'autoplay' attribute page load hote hi video ko automatically play shuru karta hai -->
+
+    <!-- 'loop' attribute video ko continuously loop karta hai -->
+
+    <!-- 'muted' attribute video ki audio ko mute karta hai -->
+
+    <!-- Agar browser <video> tag support nahi karta, to yeh text dikhega -->
+
+    <video src="video.mp4" width="640" height="360" controls autoplay loop muted poster="poster.jpg" preload="auto">
+        Aapka browser video tag ko support nahi karta.
+    </video>
 
     <hr>
 
+    <!-- Agar hindi text include karna chahte ho to lang attribute ka use kar sakte -->
+    <p>This paragraph is in English.</p>
+    <p lang="hi">यह पैराग्राफ हिंदी में है।</p>
+    <p>This paragraph is also in English.</p>
 
     <!-- List  -->
 
     <!-- Ordered List  -->
+    <!-- Ordered List -->
+    <!-- <ol> tag ka use karte hain jab hum kisi list ko ordered (numbered) format mein display karna chahte hain -->
+
+    <h3>Order List Creation </h3>
 
     <ol>
-        <li>This is Ordered List</li>
+        <!-- Har list item ko <li> tag mein wrap karte hain -->
+        <!-- Yeh pehla item hai, jo ordered list mein number 1 se start hoga -->
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
-        <li>Item 4</li>
-
     </ol>
 
-    <!-- Unordered List  -->
+    <!-- Unordered List -->
+    <!-- <ul> tag ka use karte hain jab hum kisi list ko unordered (bullet) format mein display karna chahte hain -->
 
+    <h3>Unorder List Creation </h3>
+
+    <!-- Unordered List -->
+    <!-- <ul> tag ka use karte hain jab hum kisi list ko unordered (bullet) format mein display karna chahte hain -->
     <ul>
-        <li>This is Unordered List</li>
+        <!-- Har list item ko <li> tag mein wrap karte hain -->
+        <!-- Yeh 1st item hai, jo bullet se display hoga -->
+        <li>Item 1</li>
+        <!-- Yeh 2nd item hai, jo bullet se display hoga -->
+        <li>Item 2</li>
+    </ul>
+
+    <h3>Order List Creation type attribute k sath </h3>
+
+    <!-- Agar aap order list me attribute type="A" likhte, to items A, B, C se start hote.  -->
+    <ol type="A">-
+        <!-- Har list item ko <li> tag mein wrap karte hain -->
+        <!-- Yeh pehla item hai, jo ordered list mein number 1 se start hoga -->
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
-        <li>Item 4</li>
+    </ol>
+    <!-- Agar aap order list me attribute type="a" likhte, to items a, b, c se start hote. -->
+    <!-- Agar aap order list me attribute type="i" likhte, to items i, ii, iii se start hote.  -->
+    <!-- Agar aap order list me attribute type="I" likhte, to items I, II, III se start hote. -->
+
+    <h3>UnOrder List Creation type attribute k sath </h3>
+
+    <!-- Agar aap unorder list me attribute type="square" likhte, to items  square bullets lete h -->
+    <ul type="square">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
     </ul>
 
+    <!-- Agar aap unorder list me attribute type="circle" likhte, to items  circular bullets lete h -->
+    <!-- Agar aap unorder list me attribute type="disc" likhte, to items  disc bullets lete h -->
     <hr>
 
+
+    <h3>Form Creation </h3>
     <!-- How to create Form  -->
     <!-- Form tag -->
     <!-- action attribute defines the action to be performed when the form is submitted. -->
@@ -155,66 +254,80 @@
     </form>
 
 
+    <hr>
+
+    <h3>Table Creation </h3>
+
     <!-- The <table> element defines the table -->
-<table border="4">
-    <!-- The <thead> element groups the header content of the table -->
-    <thead>
-      <!-- The <tr> element defines a table row -->
-      <tr>
-        <!-- The <th> element defines a table header cell -->
-        <th>Name</th>
-        <th>Age</th>
-        <th>Email</th>
-      </tr>
-    </thead>
-  
-    <!-- The <tbody> element groups the body content of the table -->
-    <tbody>
-      <!-- Another table row -->
-      <tr>
-        <!-- The <td> element defines a regular table data cell -->
-        <td>John Doe</td>
-        <td>25</td>
-        <td>john@example.com</td>
-      </tr>
-      <tr>
-        <td>Jane Smith</td>
-        <td>30</td>
-        <td>jane@example.com</td>
-      </tr>
-      <tr>
-        <td>Bob Johnson</td>
-        <td>35</td>
-        <td>bob@example.com</td>
-      </tr>
-    </tbody>
-  
-    <!-- The <tfoot> element groups the footer content of the table -->
-    <tfoot>
-      <tr>
-        <!-- The colspan attribute makes a cell span multiple columns -->
-        <td colspan="2">Total Users:</td>
-        <td>3</td>
-      </tr>
-    </tfoot>
-  </table>
-  
+    <table border="4">
+        <!-- The <thead> element groups the header content of the table -->
+        <thead>
+            <!-- The <tr> element defines a table row -->
+            <tr>
+                <!-- The <th> element defines a table header cell -->
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+
+        <!-- The <tbody> element groups the body content of the table -->
+        <tbody>
+            <!-- Another table row -->
+            <tr>
+                <!-- The <td> element defines a regular table data cell -->
+                <td>Aparna Raha</td>
+                <td>24</td>
+                <td>aparna@example.com</td>
+            </tr>
+            <tr>
+                <td>Aaru Sharma</td>
+                <td>30</td>
+                <td>aaru@example.com</td>
+            </tr>
+            <tr>
+                <td>Bobby Jahana</td>
+                <td>35</td>
+                <td>bobby@example.com</td>
+            </tr>
+        </tbody>
+
+        <!-- The <tfoot> element groups the footer content of the table -->
+        <tfoot>
+            <tr>
+                <!-- The colspan attribute makes a cell span multiple columns -->
+                <td colspan="2">Total Users:</td>
+                <td>3</td>
+            </tr>
+        </tfoot>
+    </table>
+
 
     <!-- Understanding Div ID and Classes  -->
 
     <!-- div is a Box (Rectangular in shape) -->
     <!-- div ek rectangular box hai jo width deta hai par koi Height nahi deta  -->
 
+    <!-- HTML mein, <div> tag ka use hum kisi bhi content ko group karne ke liye karte hain. Jab hum <div> tag ka use karte hain, to hum usse class ya id attribute de sakte hain. -->
+
+    <!-- Class aur id dono HTML elements ko unique tarike se identify karne mein madad karte hain, lekin unka use aur purpose thoda alag hota hai.  -->
+
+    <!-- Class ka use hum ek se zyada elements par apply karne ke liye karte hain, jab ki id ka use hum sirf ek element par apply karne ke liye karte hain. Isse hum CSS ya JavaScript ka use karke unhe style ya functionality de sakte hain. -->
+
+    <h3>Div Tag and its uses</h3>
     <div>
-        <p>Div me hum multiple Elements Ek sath rakh skte hai</p>
+        <p>Div me hum multiple Elements Ek sath rakh skte hai. HTML mein, div tag ka use hum kisi bhi content ko group
+            karne ke liye karte hain. Jab hum div tag ka use karte hain, to hum usse class ya id attribute de sakte
+            hain.</p>
     </div>
     <!-- id help krta hai individual item ko target krne k liye  -->
-    <p id="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, dicta! Alias, numquam iure accusamus
-        molestias veritatis reprehenderit itaque, corrupti optio doloremque praesentium explicabo? Dolor quos suscipit
-        doloribus porro tenetur nemo!</p>
-    <p class="blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, dicta! Alias, numquam iure
-        accusamus molestias veritatis reprehenderit itaque, corrupti optio doloremque praesentium explicabo? Dolor quos
-        suscipit doloribus porro tenetur nemo!</p>
+    <p id="red">Class aur id dono HTML elements ko unique tarike se identify karne mein madad karte hain, lekin unka use
+        aur purpose thoda alag hota hai.</p>
+
+
+    <p class="blue">Class ka use hum ek se zyada elements par apply karne ke liye karte hain, jab ki id ka use hum sirf
+        ek element par apply karne ke liye karte hain. Isse hum CSS ya JavaScript ka use karke unhe style ya
+        functionality de sakte hain.</p>
 </body>
 
 </html>
