@@ -1,11 +1,14 @@
 <!-- Boiler Plate  -->
-<!DOCTYPE html>  <!-- Signifies HTML5 aur ye bhi btata hai ki ye html Document hai -->
-<html lang="en"> <!--Wraps head and Body Tags-->    
+<!DOCTYPE html> <!-- Signifies HTML5 aur ye bhi btata hai ki ye html Document hai -->
+<html lang="en"> <!--Wraps head and Body Tags-->
+
 <head> <!--Includes Insrtuctions (Plugins,Settings,etc) -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This is Title</title> <!--Describes the Title of the Website-->
+
 </head>
+
 <body>
 
     <!--Body Includes the Content of the Wesite-->
@@ -20,24 +23,72 @@
 
     <!--Paragrapgh Tag-->
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, ut.</p>
+
     <!-- Pre Tag -->
     <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Ea sed, ad pariatur temporibus dolore ex! Veniam itaque minus, incidunt eius voluptates pariatur atque animi necessitatibus nobis facere assumenda sunt neque?</pre>
-    
-    <!-- To Create Bold Elemment -->
-    <b>Bold Item</b>
-    <!-- Italic -->
-    <i>This is italic</i>
 
-    <!-- Subscript(<sub>) And Superscript(<sup>)  -->
 
-    <p>H <sub>2</sub>O </p>
-    <p>a <sup>2</sup>+ b <sup>2</sup></p>
+    <!-- Text Formating tags -->
+
+    <!-- Display text in bold using <b> tag -->
+    <p>This is a <b>bold</b> text.</p>
+
+    <!-- Italicize text using <i> tag -->
+    <p>This is an <i>italic</i> text.</p>
+
+    <!-- underline text using <u> tag -->
+    <p>This is an <u>underline</u> text.</p>
+
+    <!-- Create subscript text using <sub> tag -->
+    <p>This is a subscript text: H<sub>2</sub>O</p>
+
+    <!-- Format text as superscript using <sup> tag -->
+    <p>This is a superscript text: E = mc<sup>2</sup></p>
+
+    <!-- strikethrough -->
+    <strike>strikethrough</strike>
+
+    <!-- Render text in a smaller font size using <small> tag -->
+    <p><small>This is a small text.</small></p>
+
+    <!-- Highlight added or inserted text using <ins> tag -->
+    <p>This is an <ins>inserted</ins> text.</p>
+
+    <!-- Highlight text with a background color using <mark> tag -->
+    <p>This is a <mark>highlighted</mark> text.</p>
+
+    <!-- Strike through text to signify deletion using <del> tag -->
+    <p>This is a <del>deleted</del> text.</p>
+
+    <!-- Emphasize text using <em> tag -->
+    <p>This is an <em>emphasized</em> text.</p>
+
+    <!-- Indicate important text using <strong> tag -->
+    <p><strong>This is an important text.</strong></p>
+
 
     <!-- break(<br>) -Element Dusri Line par aajaega -->
     <!-- horizontal Row (<hr>) -Inserts the line in between Elements -->
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Quaerat necessitatibus quasi similique tempore. Aspernatur saepe voluptates facilis, qui vero cum.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Quaerat necessitatibus quasi similique tempore.
+        Aspernatur saepe voluptates facilis, qui vero cum.</p>
+    <hr>
+
+
+    <!-- Anchor tag  -->
+    <!-- Creates a Link (Link URL is Added to Href Attribute) -->
+
+    <a href="https://www.youtube.com/" target="_blank">Click To Open Youtube</a>
+
+    <!-- Image Tag  -->
+    <!-- src shows the Source or Link of the Image  -->
+    <!-- alt -- is shown when there is some Problem in loading the Image  -->
+
+
+    <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="This is an Image">
+
     <hr>
 
 
@@ -51,7 +102,7 @@
         <li>Item 2</li>
         <li>Item 3</li>
         <li>Item 4</li>
-        
+
     </ol>
 
     <!-- Unordered List  -->
@@ -64,24 +115,12 @@
         <li>Item 4</li>
     </ul>
 
-    <!-- Anchor tag  -->
-    <!-- Creates a Link (Link URL is Added to Href Attribute) -->
-
-    <a href="https://www.youtube.com/" target="_blank">Click To Open Youtube</a>
-
-    <!-- Image Tag  -->
-    <!-- src shows the Source or Link of the Image  -->
-    <!-- alt -- is shown when there is some Problem in loading the Image  -->
-
-
-    <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="This is an Image">
-
     <hr>
 
     <!-- How to create Form  -->
     <!-- Form tag -->
-    <!-- action attribute defines the action to be performed when the form is submitted. -->   
-                                 
+    <!-- action attribute defines the action to be performed when the form is submitted. -->
+
     <form action="">
         <!-- form includes Inputs  -->
 
@@ -115,6 +154,52 @@
         <input type="submit">
     </form>
 
+
+    <!-- The <table> element defines the table -->
+<table border="4">
+    <!-- The <thead> element groups the header content of the table -->
+    <thead>
+      <!-- The <tr> element defines a table row -->
+      <tr>
+        <!-- The <th> element defines a table header cell -->
+        <th>Name</th>
+        <th>Age</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+  
+    <!-- The <tbody> element groups the body content of the table -->
+    <tbody>
+      <!-- Another table row -->
+      <tr>
+        <!-- The <td> element defines a regular table data cell -->
+        <td>John Doe</td>
+        <td>25</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Jane Smith</td>
+        <td>30</td>
+        <td>jane@example.com</td>
+      </tr>
+      <tr>
+        <td>Bob Johnson</td>
+        <td>35</td>
+        <td>bob@example.com</td>
+      </tr>
+    </tbody>
+  
+    <!-- The <tfoot> element groups the footer content of the table -->
+    <tfoot>
+      <tr>
+        <!-- The colspan attribute makes a cell span multiple columns -->
+        <td colspan="2">Total Users:</td>
+        <td>3</td>
+      </tr>
+    </tfoot>
+  </table>
+  
+
     <!-- Understanding Div ID and Classes  -->
 
     <!-- div is a Box (Rectangular in shape) -->
@@ -124,7 +209,12 @@
         <p>Div me hum multiple Elements Ek sath rakh skte hai</p>
     </div>
     <!-- id help krta hai individual item ko target krne k liye  -->
-    <p id="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, dicta! Alias, numquam iure accusamus molestias veritatis reprehenderit itaque, corrupti optio doloremque praesentium explicabo? Dolor quos suscipit doloribus porro tenetur nemo!</p>
-    <p class="blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, dicta! Alias, numquam iure accusamus molestias veritatis reprehenderit itaque, corrupti optio doloremque praesentium explicabo? Dolor quos suscipit doloribus porro tenetur nemo!</p>
+    <p id="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, dicta! Alias, numquam iure accusamus
+        molestias veritatis reprehenderit itaque, corrupti optio doloremque praesentium explicabo? Dolor quos suscipit
+        doloribus porro tenetur nemo!</p>
+    <p class="blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, dicta! Alias, numquam iure
+        accusamus molestias veritatis reprehenderit itaque, corrupti optio doloremque praesentium explicabo? Dolor quos
+        suscipit doloribus porro tenetur nemo!</p>
 </body>
+
 </html>
