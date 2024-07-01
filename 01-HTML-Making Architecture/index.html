@@ -212,6 +212,11 @@
     <!-- Agar aap unorder list me attribute type="square" likhte, to items  square bullets lete h -->
     <ul type="square">
         <li>Item 1</li>
+        <ul>
+            <li>item-1 content 1</li>
+            <li>item-1 content 2</li>
+            <li>item-1 content 3</li>
+        </ul>
         <li>Item 2</li>
         <li>Item 3</li>
     </ul>
@@ -257,6 +262,8 @@
         <input type="color">
         <br><br>
         <input type="submit">
+        <input type="reset">
+        <button>Register</button>
     </form>
 
 
@@ -441,7 +448,11 @@
     </tr>
 </table>
 
-<marquee behavior="" direction="">This is marquee effect</marquee>
+<marquee direction="down"
+width="100"
+height="100"
+behavior="scroll"
+>This is marquee effect</marquee>
 
 <dialog open>
     <p>Greetings, one and all!</p>
