@@ -17,7 +17,7 @@ html,body{
   grid-template-columns: 25% 25% 50%;
 }
 #left-top-left{
-  background-color: red;
+  /* background-color: red; */
   padding: 40px;
 }
 #square{
