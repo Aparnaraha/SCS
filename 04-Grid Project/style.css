@@ -73,14 +73,7 @@ html,body{
 #left-bottom p{
   width: 70%;
 }
-#right{
-  /* background-color: peru; */
-  grid-row: 1/4;
-  grid-column: 3;
-  padding: 40px;
-  padding-right: 150px;
 
-}
 #right video{
   height: 100%;
   width: 100%;
