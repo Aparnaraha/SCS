@@ -42,34 +42,7 @@ html, body{
   font-weight: 500;
 }
 
-#center{
-  /* height: 40%; */
-  width: 100%;
-  /* background-color: red; */
-  padding: 40px 50px;
-}
 
-#center h1{
-  /* font-size: 80px; */
-  font-size: 4vw;
-  font-weight: 500;
-  line-height: 4vw ;
-}
-
-#center-in {
-  height: 200px;
-  width: 100%;
-  /* background-color: red;  */
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-between;
-}
-
-#center-in p{
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 32px;
-}
 
 #right{
   width: 20%;
