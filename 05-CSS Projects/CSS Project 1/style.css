@@ -71,46 +71,6 @@ html, body{
   line-height: 32px;
 }
 
-#right{
-  width: 20%;
-}
-
-.elem{
-  /* background-color: yellow; */
-  margin: 5px;
-  padding: 20px 0;
-  border-top: 2px solid #000;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.elem i{
-  font-size: 25px;
-  font-weight: 500;
-  opacity: 0;
-}
-.elem:hover i{
-  opacity: 1;
-  /* background-color: red; */
-}
-.elem:hover a{
-  text-decoration: underline;  
-}
-.elem a{
-  color: #000;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 20px;
-}
-#bottom{
-  background-color: red;
-  height: 420px;
-  width: 100%;
-  background-image: url('asset/image\ bottom.jpg');
-  background-size: cover;
-  background-position:  25%;
-}
 
 /* Responiveness Added */
 
