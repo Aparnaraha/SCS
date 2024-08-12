@@ -17,15 +17,7 @@ html, body{
   /* background-color: red;   */
 }
 
-#nav{
-  height: 80px;
-  width: 100%;
-  /* background-color: red; */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 50px;
-}
+
 
 #nav-part-1{
   display: flex;
