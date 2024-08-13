@@ -27,12 +27,6 @@ html, body{
   padding: 0 50px;
 }
 
-#nav-part-1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* gap: 2px; */
-}
 
 .gola{
   height: 22px;
