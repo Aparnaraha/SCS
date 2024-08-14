@@ -34,12 +34,7 @@ html, body{
   /* gap: 2px; */
 }
 
-.gola{
-  height: 22px;
-  width: 22px;
-  background-color: black;
-  border-radius: 50%;
-}
+
 .line{
   height: 4px;
   width: 3px;
