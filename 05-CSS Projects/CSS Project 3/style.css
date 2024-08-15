@@ -40,6 +40,11 @@ html, body{
   background-color: black;
   border-radius: 50%;
 }
+.line{
+  height: 4px;
+  width: 3px;
+  background-color: black;
+}
 
 #nav-part-2{
   display: flex;
