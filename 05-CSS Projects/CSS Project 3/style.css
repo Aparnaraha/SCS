@@ -53,7 +53,10 @@ html, body{
   gap: 40px;
 }
 
-
+#nav-part-2 h4{
+  font-size: 16px;
+  font-weight: 500;
+}
 
 #nav-part-2 span{
   color: rgb(157, 156, 156);
