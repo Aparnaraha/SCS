@@ -63,17 +63,7 @@ html, body{
   margin-left: 20px;
 }
 
-#nav2{
-  height: 80px;
-  width: 50%;
-  /* background-color: red; */
-  display: flex;
-  align-items: right;
-  /* justify-content: space-between; */ 
-  /* or you can apply */
-  gap: 100px;
-  padding: 0 50px;
-}
+
 
 #nav2 h3{
   font-size: 17px;
