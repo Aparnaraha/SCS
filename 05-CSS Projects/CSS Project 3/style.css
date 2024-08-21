@@ -75,6 +75,12 @@ html, body{
   padding: 0 50px;
 }
 
+#nav2 h3{
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
 #content{
   height: calc(100% - 160px);
   width: 100%;
