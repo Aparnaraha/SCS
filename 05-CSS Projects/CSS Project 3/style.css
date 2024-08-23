@@ -81,7 +81,11 @@ html, body{
   text-transform: uppercase;
 }
 
-
+#content{
+  height: calc(100% - 160px);
+  width: 100%;
+  /* background-color: aquamarine; */
+}
 
 #text-content{
   height: 40%;
