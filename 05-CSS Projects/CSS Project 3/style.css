@@ -87,7 +87,14 @@ html, body{
   /* background-color: aquamarine; */
 }
 
-
+#text-content{
+  height: 40%;
+  width: 100%;
+  /* background-color: burlywood; */
+  display: flex;
+  /* flex-wrap: nowrap;  not necessary you want you can give or not*/
+  overflow-x: auto;
+}
 
 #text-content::-webkit-scrollbar{
   /* for removing navigation */
