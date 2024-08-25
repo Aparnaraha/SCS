@@ -96,11 +96,6 @@ html, body{
   overflow-x: auto;
 }
 
-#text-content::-webkit-scrollbar{
-  /* for removing navigation */
-  background-color: transparent;
-  height: 7px;
-}
 
 #text-content::-webkit-scrollbar-thumb{
   /* for removing navigation */
