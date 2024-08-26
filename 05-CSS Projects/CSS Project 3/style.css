@@ -102,10 +102,7 @@ html, body{
   height: 7px;
 }
 
-#text-content::-webkit-scrollbar-thumb{
-  /* for removing navigation */
-  background-color: orangered;
-}
+
 
 
 .elem{
