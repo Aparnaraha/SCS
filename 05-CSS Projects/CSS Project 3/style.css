@@ -108,16 +108,6 @@ html, body{
 }
 
 
-.elem{
-  flex-shrink: 0;
-  height: 100%;
-  width: 60%;
-  /* background-color: red; */
-  /* border: 2px solid black; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .elem h1{
   font-size: 120px;
