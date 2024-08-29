@@ -124,13 +124,7 @@ html, body{
   font-weight: 500;
 }
 
-#image-content{
-  height: 60%;
-  width: 100%;
-  /* background-color: palevioletred; */
-  display: flex;
-  overflow-x: auto;
-}
+
 
 #image-content::-webkit-scrollbar{
   display: none;
