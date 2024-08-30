@@ -132,9 +132,6 @@ html, body{
   overflow-x: auto;
 }
 
-#image-content::-webkit-scrollbar{
-  display: none;
-}
 
 
 #image-content img{
