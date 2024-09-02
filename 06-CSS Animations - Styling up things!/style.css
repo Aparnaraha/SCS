@@ -5,6 +5,13 @@
   padding: 0;
 }
 
+/* Global Styles */
+body,html {
+  font-family: 'Arial', sans-serif;
+  height : 100%;
+  width: 100%;
+}
+
 /* Add your own styles below this line */
 #box{
     width: 300px;
