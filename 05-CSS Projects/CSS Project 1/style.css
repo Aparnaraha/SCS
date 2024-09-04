@@ -16,17 +16,6 @@ html, body{
   background-color: rgb(255, 255, 255);
 }
 
-#nav{
-  height: 100px;
-  width: 100%;
-  /* background-color: red; */
-  display: flex;
-  align-items: center;
-  justify-content: right;
-  /* justify-content: flex-end; */
-  gap: 30px;
-  padding: 0 30px;
-}
 
 #nav h4{
   font-size: 20px;
