@@ -22,21 +22,7 @@ body,html {
     position: absolute;
     animation-delay: 1s;
 }
-/* @keyframes chacha {
-    from{}
-    to{}
-} */
-@keyframes chacha {
-    from{
-        left :0;
-        rotate: 0;
-    }
-    to{
-        left : 50%;
-        background-color: cyan;
-        rotate: 360deg;
-    }
-}
+/
 #box2{
     width: 100px;
     height: 100px;
