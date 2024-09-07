@@ -37,7 +37,21 @@ body,html {
         rotate: 360deg;
     }
 }
-
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    position: absolute;
+    animation-name: box2;
+    animation-duration: 2.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards; /*Animation khtm hone k bad final position par baith jaega* */
+    animation-iteration-count: 2;/**Number of times animation chalega**/
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse;*Direction of animation* */
+    /* animation-direction:alternate  ; */
+    animation-timing-function: ease-in;
+}
 @keyframes box2 {
     0%{
         left: 0;
