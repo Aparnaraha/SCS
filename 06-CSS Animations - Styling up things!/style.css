@@ -52,7 +52,11 @@ body,html {
     /* animation-direction:alternate  ; */
     animation-timing-function: ease-in;
 }
-
+@keyframes box2 {
+    0%{
+        left: 0;
+        top :0
+    }
     50%{
         left : 80%;
         top: 0;
