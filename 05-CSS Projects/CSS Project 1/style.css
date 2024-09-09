@@ -111,9 +111,3 @@ html, body{
   background-size: cover;
   background-position:  25%;
 }
-
-/* Responiveness Added */
-
-@media (max-width: 600px) {
-  
-}
