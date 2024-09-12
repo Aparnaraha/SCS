@@ -61,4 +61,8 @@ body,html {
         left : 80%;
         top: 0;
     }
- 
+    100%{
+        left : 80%;
+        top: 80%;
+    }
+}
