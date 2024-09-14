@@ -9,11 +9,6 @@
       padding: 0 5vw;
   }
 
-  #nav h1 {
-      width: 40%;
-      justify-content: flex-start;
-      font-size: 24px;
-  }
 
   #nav h3 {
       display: block;
