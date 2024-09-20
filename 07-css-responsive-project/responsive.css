@@ -19,7 +19,22 @@
       display: block;
   }
 
- 
+  #nav h1::after {
+
+      display: none;
+  }
+
+  #nav h1::before {
+      display: none;
+
+  }
+
+  #nav h2 {
+
+      display: none;
+
+  }
+
 
   #center {
       height: 40%;
