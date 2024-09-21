@@ -36,26 +36,6 @@
   }
 
 
-  #center {
-      height: 40%;
-      width: 100%;
-      /* background-color: red; */
-      position: relative;
-      padding: 3vw 4vw;
-  }
-
-  #content {
-      height: 100%;
-      width: 100%;
-      background-color: blue;
-      position: relative;
-  }
-
-  #content video {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-  }
 
   #overlay {
       height:fit-content;
