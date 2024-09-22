@@ -57,16 +57,7 @@
       object-fit: cover;
   }
 
-  #overlay {
-      height:fit-content;
-      width: 100%;
-      position: absolute;
-      bottom: 0;
-      /* background-color: red; */
-      padding: 3vw;
-      color: #fff;
 
-  }
 
   #over1 {
       display: flex;
