@@ -82,15 +82,6 @@
 
   }
 
-  #over1 h2 {
-      font-size: 2vw;
-      padding: 3vw 3.2vw;
-      /* background-color: blue; */
-      border-radius: 50%;
-      /* font-weight: 100; */
-      border: 1px solid #fff;
-
-  }
 
   #over2 {
       display: flex;
