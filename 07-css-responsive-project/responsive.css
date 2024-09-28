@@ -109,7 +109,16 @@
       height: 5vw;
   }
 
-
+  #scroll {
+      height: 20vh;
+      width: 100%;
+      /* background-color: red; */
+      /* padding: 1vw; */
+      white-space: nowrap;
+      /* display: flex; */
+      overflow-x: hidden;
+      overflow-y: hidden;
+  }
   
   #container {
       height: 100%;
