@@ -120,7 +120,17 @@
       overflow-y: hidden;
   }
   
-
+  #container {
+      height: 100%;
+      width: 210%;
+      /* background-color: blue; */
+      display: inline-block;
+      padding: 2vw;
+      animation-name: anime;
+      animation-duration: 8s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+  }
   
   #scroll img {
       /* display: none; */
