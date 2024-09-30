@@ -132,14 +132,3 @@
       animation-timing-function: linear;
   }
   
-  #scroll img {
-      /* display: none; */
-      height: 95%;
-      border-radius: 50%;
-      width: 15.5%;
-      margin: 1vw;
-      object-fit: cover;
-      object-position: 30% 30%;
-  }
-  
-}
