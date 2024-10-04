@@ -32,6 +32,17 @@ html,body{
   justify-content: space-between;
 }
 
+#nav h1{
+  /* background-color: #483f3f; */
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Monument Extended;
+  font-size: 45px;
+  letter-spacing: -2px;
+}
 
 #nav h2{
   /* background-color: #e0d212; */
